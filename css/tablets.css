@@ -1,0 +1,14 @@
+header h1{
+    margin: 5px 0;
+}
+
+.menu-departamentos{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.menu-departamentos nav > ul{
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+}

@@ -1,0 +1,144 @@
+/*Busca e menu-departamentos*/
+.destaque{
+    margin-top: 10px;
+}
+.busca,
+.menu-departamentos {
+  background-color: #dcdcdc;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  margin-right: 10px;
+  width: 230px;
+
+  float: left;
+}
+.busca{
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.busca h2,
+.busca form,
+.menu-departamentos h2 {
+  margin: 10px;
+}
+
+.busca input{
+    vertical-align: middle;
+}
+
+.busca input[type=search]{
+    width: 170px;
+}
+
+.menu-departamentos li {
+  background-color: white;
+  margin-bottom: 1px;
+  padding: 5px 10px;
+}
+
+.menu-departamentos a {
+    color: #333333;
+    text-decoration: none;
+}
+
+.menu-departamentos{
+   clear: left;
+   margin-top: 10px;
+   padding-bottom: 10px;
+}
+
+.menu-departamentos li ul{
+    display: none;
+}
+
+.menu-departamentos li li a::before{
+    content:'\272A';
+}
+
+.menu-departamentos li:hover ul{
+    display: block;
+    background-color: #333333;
+    padding-bottom: 0.1px;
+}
+
+
+/*paineis*/
+.painel{
+    margin: 10px 0;
+    padding: 10px;
+    width: 445px;
+    border-radius: 4px;
+    box-shadow: inset 1px 1px 4px #999;
+}
+
+.novidades{
+    float: left;
+}
+
+.mais-vendidos{
+    float: right;
+}
+
+.painel li{
+    display: inline-block;
+    vertical-align: top;
+    width: 140px;
+
+    margin: 2px;
+    padding-bottom: 10px;
+
+    transition: 0.7s ease-out;
+
+}
+
+.painel h2{
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+}
+
+.painel a{
+    color: #333333;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.painel li:hover{
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 5px #333;
+    transition:  0.7s ease-in;
+    transform: scale(1.1);
+}
+
+
+.novidades {
+  background-color: #f5dcdc;
+  background: linear-gradient(#f5dcdc, #bebef4);
+}
+
+.mais-vendidos{
+    background-color: #dcdcf5;
+    background: linear-gradient(#dcdcf5, #f4bebe);
+}
+
+
+
+
+.painel-compacto li:nth-child(n+7){
+    display: none;
+}
+.painel-compacto button{
+    display: block ;
+}
+
+
+
+
+
+
